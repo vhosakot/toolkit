@@ -25,6 +25,10 @@ gem "sanitize"
 gem "strscan"
 gem "tty-pager"
 
+gem 'escher-keypool', '>= 0.0.1'
+gem 'escher-rack_middleware', '>= 0.1.3'
+gem 'rack', '>= 1.6.2'
+
 group :development, :test do
   gem "pry"
   gem "pry-byebug"
